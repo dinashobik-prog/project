@@ -1,0 +1,34 @@
+# Презентация решения
+[Google Docs](https://docs.google.com/presentation/d/1Qpb-fCIdeBB_9aFf8wNFN_mNnDoE0vNJ71B7VUzpHBg/edit?usp=sharing)
+
+# Состав репозитория
+`Learning_Beautiful.ipynb` -- файл с обучением\
+`main.py` -- файл для предсказания oil_prperty по датасету\
+`descriptors_fun.py` -- файл с функциями для вычисления дескрипторов по smiles\
+`train_data_fix_concat.csv` и `test_data_fix_concat.csv` -- датасеты предоставленные организаторами\
+`oil_info_test.csv` и `oil_info_train.csv` -- предобработанные датасеты. содеражт теже данные по маслам, что и `train_data_fix_concat.csv` и `test_data_fix_concat.csv`, но в более удобном формате: информация о масле содержится в одной строке, т.е. сгруппирована по `blend_id`.\
+`*.pkl` -- предобученные модели
+
+# Использование main.py
+
+## Установка необходимых библиотек
+```
+pip install argparse
+pip install rdkit
+pip install pandas
+pip install numpy
+```
+
+## Предсказание
+```
+python3 main.py -i <input_dataset_path> -o <output_path>
+```
+
+Чтобы отобразить прогресс нужно дописать флаг -v
+
+Входной датасет должен иметь такую же структуру как и test_data_fix_concat.csv
+
+## Пример
+```
+python3 main.py -i test_data_fix_concat.csv -o result.csv -v
+```
