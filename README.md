@@ -2,12 +2,12 @@
 [Google Docs](https://docs.google.com/presentation/d/1Qpb-fCIdeBB_9aFf8wNFN_mNnDoE0vNJ71B7VUzpHBg/edit?usp=sharing)
 
 # Состав репозитория
-`Learning_Beautiful.ipynb` -- файл с обучением\
-`main.py` -- файл для предсказания oil_prperty по датасету\
-`descriptors_fun.py` -- файл с функциями для вычисления дескрипторов по smiles\
-`train_data_fix_concat.csv` и `test_data_fix_concat.csv` -- датасеты предоставленные организаторами\
-`oil_info_test.csv` и `oil_info_train.csv` -- предобработанные датасеты. содеражт теже данные по маслам, что и `train_data_fix_concat.csv` и `test_data_fix_concat.csv`, но в более удобном формате: информация о масле содержится в одной строке, т.е. сгруппирована по `blend_id`.\
-`*.pkl` -- предобученные модели
+* `Learning_Beautiful.ipynb` — файл с обучением
+* `main.py` — файл для предсказания oil_prperty по датасету
+* `descriptors_fun.py` — файл с функциями для вычисления дескрипторов по smiles
+* `train_data_fix_concat.csv` и `test_data_fix_concat.csv` — датасеты предоставленные организаторами
+* `oil_info_test.csv` и `oil_info_train.csv` — предобработанные датасеты. содеражт теже данные по маслам, что и `train_data_fix_concat.csv` и `test_data_fix_concat.csv`, но в более удобном формате: информация о масле содержится в одной строке, т.е. сгруппирована по `blend_id`
+* `*.pkl` — предобученные модели
 
 # Использование main.py
 
@@ -15,6 +15,7 @@
 ```
 pip install argparse
 pip install rdkit
+pip install scikit-learn
 pip install pandas
 pip install numpy
 ```
