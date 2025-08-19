@@ -3,7 +3,7 @@
 _Задание хакатона Нефтекод_
 
 # Презентация решения
-[Google Docs](https://docs.google.com/presentation/d/1PwnA6IwL_MiawJutLk07gsVbz0FZVuLPRJe2TEz3Hqg/edit?usp=sharing)
+[Google Docs](https://drive.google.com/file/d/119X7WjFnsGW_8am7V1t3InFlBAx8XWbg/view?usp=sharing)
 
 # Состав репозитория
 * `Learning_Beautiful.ipynb` — файл с обучением
